@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'daft'; 
+	src: url('/Users/lucasrolo/Desktop/UAX_Cursos/IronHack/primero_site/Daft_Font.ttf')format('truetype');
+}
+header{
+	font-family: 'daft'; 
+}
+
+.blanc{
+	background-color: white;
+	color:black;
+}
+button{
+	float:right;
+}
+body{
+	background-color: black;
+	background-attachment:fixed;
+	background-size:100%;
+	font-family: courier;
+	font-style: monospace ;
+	color:white;
+}
+h1{
+	text-align:center;
+}
+.texte{
+	padding-left:10px;
+	margin-left:50px;
+	margin-right:50px;
+	border:2px solid;
+}
+#présentation{
+	text-align:center;
+	background-color:#0E0E0E;
+	padding-top:20px;
+	padding-bottom:20px
+}
+.pres{
+	text-decoration:none;
+	color:white;
+	margin-left:25px;
+	margin-right:25px;
+}
+.pres:hover{
+	color:#BEBEBE;
+	cursor: pointer;
+}

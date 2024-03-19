@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test de Personalidad</title>
+  <link rel="stylesheet" href="form.css">
+
+  <div id="présentation">
+    <a class="pres" href="index.html">Home</a>
+    <a class="pres" href="story.html">Historia</a>
+    <a class="pres" href="albums.html">Álbumes</a>
+    <a class="pres" href="form.html">Formulario</a>
+  </div>
+</header>
+<body>
+  <br><br>
+  <hr id="barre">
+  <p>Una vez, en un lejano planeta, un explorador espacial llamado Juan se embarcó en una misión para encontrar la música perfecta que uniera a todas las especies de la galaxia. Con este formulario, tú puedes ayudar a Juan en su búsqueda. Completa las preguntas para descubrir qué tipo de música podría unirte con el universo.</p>
+  <hr id="barre">
+
+  <h1>¡Descubre tu Estilo Musical Ideal!</h1>
+  <h6>Este formulario te ayudará a encontrar el estilo musical que más se adapte a tu personalidad.</h6>
+  <form id="quiz" name="quiz" action="agradecimiento.html" method="post">
+    <p class="question">¿Cómo te describirías a ti mismo?</p>
+    <input type="text" id="q1" name="q1" class="blanc" required>
+    <hr id="barre">
+
+    <p class="question">¿Cuál es tu canción favorita?</p>
+    <input type="text" id="q2" name="q2" class="blanc" required>
+    <hr id="barre">
+
+    <p class="question">¿Qué instrumento musical te gustaría aprender a tocar?</p>
+    <input type="text" id="q3" name="q3" class="blanc" required>
+    <hr id="barre">
+
+    <p class="question">¿Cuál es tu lugar favorito para escuchar música?</p>
+    <input type="text" id="q4" name="q4" class="blanc" required>
+    <hr id="barre">
+
+    <p class="question">¿Qué te hace sentir la música?</p>
+    <input type="text" id="q5" name="q5" class="blanc" required>
+    <hr id="barre">
+
+    <button type="submit" id="button">Descubrir mi Estilo Musical</button>
+  </form>
+
+  <div id="valid">
+    <p id="message" name="message"></p>
+    <img id="image" name="image" src="img" class="blanc">
+  </div>
+</body>
+</html>

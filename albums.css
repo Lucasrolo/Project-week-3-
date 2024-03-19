@@ -1,0 +1,103 @@
+@font-face {
+	font-family: 'daft'; 
+	src: url('/Users/lucasrolo/Desktop/UAX_Cursos/IronHack/primero_site/Daft_Font.ttf')format('truetype');
+}
+
+h1 {
+  text-align:center;
+  font-size:25px;
+  font-weight: 900;
+}
+
+header{
+  font-family: 'daft';
+}
+#ensemble {
+  text-align: center;
+  margin: 10px 70px 10px 70px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  border:5px solid black;
+  text-align: center;
+  display:inline-block;
+}
+
+.image {
+  opacity: 1;
+  display:block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  text-align:center;
+}
+
+#titre-perso{
+  text-align:center;
+  font-size:50px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.6;
+}
+
+.container:hover .middle {
+  opacity: 0.9;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  font-family: 'daft';
+}
+body { 
+  background-color: black;
+  background-size:100%;
+  background-attachment:fixed;
+  color:white;
+  font-family: 'Helvetica', sans-serif;
+  font-style: monospace ;
+}
+a {
+  text-decoration: none;
+}
+
+button{
+  float:right;
+}
+#présentation{
+  text-align:center;
+  background-color:#0E0E0E;
+  padding-top:20px;
+  padding-bottom:20px
+}
+.pres{
+  text-decoration:none;
+  color:white;
+  margin-left:25px;
+  margin-right:25px;
+}
+.pres:hover{
+  color:#BEBEBE;
+  cursor: pointer;
+}
+
+
+
+

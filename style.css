@@ -1,0 +1,91 @@
+header{
+	display : flex ;
+	align-items: center;  
+	justify-content: center;  
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-bottom: solid grey 1px
+  }
+
+
+@font-face {
+	font-family: 'daft'; 
+	src: url('/Users/lucasrolo/Desktop/UAX_Cursos/IronHack/primero_site/Daft_Font.ttf')format('truetype');
+  }
+  
+.logo{
+	display: flex;
+	max-width: 10%;
+	max-height: 100% ;
+	align-self: center;
+
+}
+body {
+	font-family : 'daft';
+	color: white ; 
+	margin: 0;
+	padding: 0;
+	background-image: url('https://www.laxmasmusica.com/uploads/newsarticle/17ea5674f79c48d29b103e57a6cf0d01/Daft_Punk.jpg'); /* Ajoutez le chemin de votre image */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la page */
+    background-position: top; /* Fixe l'image en haut de la page */
+	background-repeat: no-repeat;
+	background-color:black;
+  }
+
+  header {
+	background-color: transparent; /* Fond transparent pour le header */
+	color: #fff; /* Couleur du texte dans le header */
+	padding: 100px 20px; /* Espacement intérieur du header (ajustez selon vos besoins) */
+	text-align: center;
+	padding: 10px; /* Espacement intérieur du header */
+  }
+
+  section {
+	padding: 20px; /* Espacement intérieur de la section */
+  }
+
+.pres{
+	color: white;
+	margin : 20px; 
+	font-family:'daft', sans-serif; 
+}
+
+.content{
+	margin-top: 450px;
+	text-align: center;
+}
+
+
+#title{
+	text-align: center;
+	font-size:30px;
+	background-color: rgba(0,0,0, 0.5);
+}
+#pr{
+	background-color: rgba(0,0,0, 0.5);
+}
+
+a:hover{
+	color:yellow;
+}
+hr {
+	margin-right:100px;
+	margin-left:100px;
+}
+
+footer {
+	font-family: 'Courier New', Courier, monospace;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
